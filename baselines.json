@@ -1,0 +1,17 @@
+{
+  "Logistic Regression": {
+    "train_acc": 0.8773764258555133,
+    "test_acc": 0.8154613466334164,
+    "pool": 4
+  },
+  "SVM (RBF)": {
+    "train_acc": 0.9188450570342205,
+    "test_acc": 0.8736492103075644,
+    "pool": 4
+  },
+  "Random Forest": {
+    "train_acc": 1.0,
+    "test_acc": 0.85785536159601,
+    "pool": 4
+  }
+}

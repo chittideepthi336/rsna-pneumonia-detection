@@ -1,0 +1,19 @@
+{
+  "train_acc": 1.0,
+  "val_acc": 0.9243243243243243,
+  "test_acc": 0.9226932668329177,
+  "precision": 0.936426116838488,
+  "recall_sensitivity": 0.9068219633943427,
+  "specificity": 0.9385382059800664,
+  "confusion": {
+    "TN": 565,
+    "FP": 37,
+    "FN": 56,
+    "TP": 545
+  },
+  "epochs": 20,
+  "lr": 0.0001,
+  "batch_size": 64,
+  "batchnorm": true,
+  "f1": 0.9213863060016906
+}
