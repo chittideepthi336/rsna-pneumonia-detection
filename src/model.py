@@ -43,7 +43,7 @@ def save_model(model, path, mean, std):
 
 
 def load_model(path, device="cpu"):
-    ckpt = torch.load(path, map_location=device)
+    ckpt = torch.load(path, map_location=device, weights_only=False)
     model = PneumoniaCNN(use_bn=ckpt["use_bn"]).to(device)
     model.load_state_dict(ckpt["state_dict"])
     model.eval()
