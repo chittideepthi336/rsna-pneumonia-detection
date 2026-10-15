@@ -6,3 +6,4 @@ matplotlib
 pillow
 pydicom
 tqdm
+gradio
