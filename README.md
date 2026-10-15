@@ -42,8 +42,7 @@ Adam, lr 1e-4, 20 epochs. We add BatchNorm after each conv for stable training (
 (ground-truth boxes scaled to 128x128), `load_stats` and `normalize`. Trained weights: `models/cnn.pt`
 (load with `src.model.load_model`).
 
-## Part B: localization and demo
-## Part B: localization and demo
+## Part B: localization and demo - 
 
 Only image-level labels are used for training. Ground-truth boxes are used only to evaluate localization.
 
